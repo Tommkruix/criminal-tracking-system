@@ -22,20 +22,20 @@ You're good to go!
 <img src="/screenshot/1.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/2.png" align="center"
+<img src="/screenshot/2.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/3.png" align="center"
+<img src="/screenshot/3.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/4.png" align="center"
+<img src="/screenshot/4.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/5.png" align="center"
+<img src="/screenshot/5.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/6.png" align="center"
+<img src="/screenshot/6.png" align="center"
      alt="Logo">
 
-     <img src="/screenshot/7.png" align="center"
+<img src="/screenshot/7.png" align="center"
      alt="Logo">
