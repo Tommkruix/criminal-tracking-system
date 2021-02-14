@@ -1,0 +1,100 @@
+.parent{
+    -fx-background-color: #fff;
+}
+
+.parent_pane{
+    -fx-background-color: #fff;
+}
+
+.sidebar{
+    -fx-background-color: #6747cd;
+}
+
+.create-accountBtn{
+    -fx-text-fill: #a3a3a3; 
+}
+
+.create-accountBtn:hover{
+    -fx-text-fill: #6747cd;
+}
+
+.loginBtn{
+    -fx-background-color: #6747cd;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+}
+
+.loginBtn:hover{
+    -fx-background-radius: 5px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #6747cd;
+    -fx-border-color: #6747cd;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 5px;
+}
+
+.exitBtn{
+    -fx-background-color: #f10000;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+}
+
+.exitBtn:hover{
+    -fx-background-radius: 5px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #f10000;
+    -fx-border-width: 1px;
+    -fx-text-decoration: underline;
+}
+
+.closeBtn{
+    -fx-fill: #545454;
+}
+
+.closeBtn:hover{
+    -fx-fill: #ff6666;
+}
+
+.backBtn{
+    -fx-fill: #545454;
+}
+
+.backBtn:hover{
+    -fx-fill: #6747CD;
+}
+
+.parent_d{
+    -fx-background-color: #fff;
+}
+.sidebar_d{
+    -fx-background-color: #333645;
+}
+.btns{
+    -fx-background-color: transparent;
+}
+.btns:hover{
+    -fx-background-color: #6747cd;
+}
+.box{
+    -fx-border-color: #3B3F4B;
+    -fx-border-width: 1px 0px 0px 0px;
+}
+.round-lbl{
+    -fx-background-color: #FE7A79;
+    -fx-background-radius: 100%;
+}
+.card-01{
+    -fx-background-color: rgba(0, 162, 211,0.3);
+}
+.card-02{
+    -fx-background-color: rgba(69, 183, 175,0.3);
+}
+.card-02{
+    -fx-background-color: rgba(255, 198, 108,0.3);
+}
+.round-box{
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+    -fx-border-width: 5px;
+}

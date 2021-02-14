@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardTableViewDocumentController">
+   <children>
+      <TableView fx:id="RecordTable" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-border-color: #6747cd;" stylesheets="@../css/stylesheet.css">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <columns>
+            <TableColumn fx:id="colCASENO" prefWidth="88.0" text="CASE NO" />
+            <TableColumn fx:id="colNAME" prefWidth="76.0" text="NAME" />
+            <TableColumn fx:id="colCRIME" prefWidth="75.0" text="CRIME" />
+            <TableColumn fx:id="colADDRESS" prefWidth="90.0" text="ADDRESS" />
+            <TableColumn fx:id="colSTATE" prefWidth="70.0" text="STATE" />
+            <TableColumn fx:id="colSEX" prefWidth="52.0" text="SEX" />
+            <TableColumn fx:id="colIPO" prefWidth="89.0" text="IPO" />
+            <TableColumn fx:id="colVERDICT" prefWidth="67.0" text="VERDICT" />
+            <TableColumn fx:id="colCELLNO" minWidth="0.0" prefWidth="75.0" text="CELL NO" />
+            <TableColumn fx:id="colARRESTDATE" prefWidth="120.0" text="ARREST DATE" />
+         </columns>
+      </TableView>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="800.0" stylesheets="@../css/stylesheet.css">
+         <children>
+            <Label fx:id="lblStatement" layoutX="130.0" layoutY="29.0" text="Osun State Police Command">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="loadBtn" layoutX="610.0" layoutY="31.0" onAction="#handleLoadBtn" prefHeight="27.0" prefWidth="161.0" />
+            <JFXButton layoutX="523.0" layoutY="31.0" onMouseClicked="#GeneratePDF" styleClass="loginBtn" stylesheets="@../css/stylesheet.css" text="Print PDF" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

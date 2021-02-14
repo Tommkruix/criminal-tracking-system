@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CriminalTrackingSystem.jnlp">
+  <information>
+    <title>CriminalTrackingSystem</title>
+    <vendor>tommkruix</vendor>
+    <description>Criminal Tracking System developed by tommkruix, ajiferukeolatommy@gmail.com</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CriminalTrackingSystem.jar" size="203749" download="eager" />
+    <jar href="lib/controlsfx-8.40.13.jar" size="1213306" download="eager" />
+    <jar href="lib/fontawesomefx-commons-8.13.jar" size="20607" download="eager" />
+    <jar href="lib/fontawesomefx-fontawesome-4.7.0-1.jar" size="135304" download="eager" />
+    <jar href="lib/itextpdf-5.1.0.jar" size="1614419" download="eager" />
+    <jar href="lib/jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="lib/joda-time-2.9.1.jar" size="625986" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
+    <jar href="lib/recurrence-8.4.2.jar" size="159924" download="eager" />
+    <jar href="lib/view-8.4.2.jar" size="745112" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CriminalTrackingSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.MainDocument"  name="CriminalTrackingSystem" />
+  <update check="always"/>
+</jnlp>

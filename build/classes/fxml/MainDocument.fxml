@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.glyphfont.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="parent" stylesheets="@../css/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainDocumentController">
+    <children>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="sidebar" stylesheets="@../css/stylesheet.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../assets/icon-white.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin></ImageView>
+            <Label text="Welcome To" textFill="#f8f4f4">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label text="Crime Tracking System" textFill="#f8f4f4">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Developed By:" textFill="#f8f4f4">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Oyeyiola Tolulope Daniel" textFill="#f8f4f4">
+               <font>
+                  <Font name="Gill Sans" size="14.0" />
+               </font>
+            </Label>
+            <Label text="NOU131938898" textFill="#f8f4f4">
+               <font>
+                  <Font name="Gill Sans" size="14.0" />
+               </font>
+            </Label>
+         </children></VBox>
+      <Pane fx:id="content_area" layoutX="400.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="parent_pane" stylesheets="@../css/stylesheet.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="45.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="154.0" onMouseClicked="#close_app" text="Welcome Back" textFill="#545454">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="189.0" text="Sign in to continue" textFill="#a3a3a3">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtUsername" focusColor="#6747cd" labelFloat="true" layoutX="55.0" layoutY="300.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="300.0" promptText="Email Address" unFocusColor="#a3a3a3">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="txtPassword" focusColor="#6747cd" labelFloat="true" layoutX="55.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="300.0" promptText="Password" unFocusColor="#a3a3a3">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+            </JFXPasswordField>
+            <Label layoutX="193.0" layoutY="521.0" onMouseClicked="#open_registration_page" styleClass="create-accountBtn" stylesheets="@../css/stylesheet.css" text="Create an Account" textFill="#a3a3a3">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <JFXButton fx:id="loginButton" buttonType="RAISED" layoutX="55.0" layoutY="438.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#logIn" prefHeight="50.0" prefWidth="300.0" ripplerFill="#0777ff" styleClass="loginBtn" stylesheets="@../css/stylesheet.css" text="Login">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Label layoutX="118.0" layoutY="521.0" stylesheets="@../css/stylesheet.css" text="New User?" textFill="#a3a3a3">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="closeBtn" layoutX="381.0" onMouseClicked="#close_app" text="X" textFill="#bf0c0c">
+               <font>
+                  <Font name="Noteworthy Bold" size="16.0" />
+               </font></Label>
+            <Label fx:id="lblErrors" layoutX="108.0" layoutY="246.0" textAlignment="CENTER" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
